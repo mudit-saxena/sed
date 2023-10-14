@@ -14,13 +14,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Builder
-public class CommandBuilder {
+public class SedExecutor {
 
   String options;
   String command;
   String fileName;
 
-  CommandBuilder(String options, String command, String fileName) {
+  SedExecutor(String options, String command, String fileName) {
     this.command = command;
     this.options = options;
     this.fileName = fileName;
